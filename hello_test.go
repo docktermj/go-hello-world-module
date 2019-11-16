@@ -10,7 +10,7 @@ import (
  */
 
 func TestHello(testing *testing.T) {
-	want := "Hello, world! from unknown version"
+	want := "Hello, world! from"
 	if got := Hello(); !strings.HasPrefix(got, want) {
 		testing.Errorf("Hello() = %q, want %q", got, want)
 	}
