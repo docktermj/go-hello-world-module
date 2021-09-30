@@ -1,3 +1,3 @@
 module github.com/docktermj/go-hello-world-module
 
-go 1.13
+go 1.17
