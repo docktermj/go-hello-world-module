@@ -7,7 +7,7 @@ import (
 // Values updated via "go install -ldflags" parameters.
 
 var moduleName string = "github.com/docktermj/go-hello-world-module"
-var buildVersion string = "1.0.0"
+var buildVersion string = "0.0.5"
 var buildIteration string = "0"
 var helloName string = "world"
 
